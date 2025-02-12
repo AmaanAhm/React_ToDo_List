@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.todolistapp{
+    overflow: hidden;
+}
+.addinlist{
+    padding: 15px 13px;
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: chartreuse;
+    margin-left: 10px;
+}
+
+.notes-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    gap: 50px;
+  }
+  
+  .note {
+    width: 100%; 
+    background-color: #f8f9fa; 
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #007bff; /* Blue left border for highlight */
+  }
+  
+  .note p {
+    font-size: 16px;
+    color: #333;
+  }
+
+.title {
+    width: 400px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.textinput{
+    width: 60%; 
+    height: 35px;
+    border-radius: 5px;
+    padding: 5px;
+}
